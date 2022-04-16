@@ -5,14 +5,17 @@
     padding: 0;
     list-style: none;
 }
+body {
+    font-family:  'Josefin Sans', 'sans-serif';
+}
 
 h1 {
     color: green;
     font-size: 1.5cm;
     font-family:  'Josefin Sans', 'sans-serif';
 }
-
-.row{
-    background-color: aqua;
-    margin: 2px;
+.col-sm img {
+    width: 330px;
+    height: 300px;
+    margin-bottom: 30px;
 }
