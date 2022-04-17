@@ -8,15 +8,27 @@
 body {
     font-family:  'Josefin Sans', 'sans-serif';
 }
-
-#titulo {
-    color: green;
-    font-size: 5em;
-    font-family: 'Josefin Sans', 'sans-serif';
-    font-weight: bold;
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     background-color: #babae4;
-    padding: 0.3em;
 }
+.smenu {
+    margin: 10px;
+    font-family: 'inherit';
+}
+.carousel-inner img {
+    width: 300px;
+    height: 500px;
+    margin: 20px;
+}
+.carousel-item img{
+    width: 300px;
+    height: 500px;
+    margin: 40px;
+}
+
 /*codigo del menu de navegacion */
 
 
@@ -31,6 +43,9 @@ body {
 
 .container h3 {
  background-color: #babae4;
+ text-align: center;
+ letter-spacing: 0.03em;
+ font-weight: bold;
 }
 .footer {
     background-color: #babae4;
