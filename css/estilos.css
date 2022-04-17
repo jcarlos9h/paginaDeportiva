@@ -9,13 +9,31 @@ body {
     font-family:  'Josefin Sans', 'sans-serif';
 }
 
-h1 {
+#titulo {
     color: green;
-    font-size: 1.5cm;
-    font-family:  'Josefin Sans', 'sans-serif';
+    font-size: 5em;
+    font-family: 'Josefin Sans', 'sans-serif';
+    font-weight: bold;
+    background-color: #babae4;
+    padding: 0.3em;
 }
+/*codigo del menu de navegacion */
+
+
 .col-sm img {
     width: 330px;
     height: 300px;
     margin-bottom: 30px;
+}
+.container {
+    margin: 50px;
+}
+
+.container h3 {
+ background-color: #babae4;
+}
+.footer {
+    background-color: #babae4;
+    text-align: center;
+    padding: 2em;
 }
