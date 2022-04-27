@@ -47,8 +47,8 @@ body {
  letter-spacing: 0.03em;
  font-weight: bold;
 }
-.footer {
-    background-color: #babae4;
-    text-align: center;
-    padding: 2em;
+/*Estilo de las Rs */
+.ms-3 a  {
+    color: #808080;
+    font-size: 18px;
 }
